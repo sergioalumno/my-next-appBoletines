@@ -6,13 +6,14 @@ import App2 from "./Ejercicios/Boletin 1/ejercicio5/ejercicio5";
 import ToDoList from "./Ejercicios/Boletin 1/ejercicio8/ejercicio8";
 import StudentList from "./Ejercicios/Boletin 2/ejercicio1/ejercicio1";
 import LimitedCounter from "./Ejercicios/Boletin 2/ejercicio2/ejercicio2.js";
+import AverageCalculator from "./Ejercicios/Boletin 2/ejercicio3/ejercicio3.js";
 
 export default function Home() {
   return (
     <div>
       <h1>Boletin 2</h1>
       <h1>Ejercicio 3</h1>
-        <LimitedCounter />
+        <AverageCalculator />
 
       <h1>Ejercicio 2</h1>
         <LimitedCounter />

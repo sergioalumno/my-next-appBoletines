@@ -1,6 +1,6 @@
 "use client"
 
-import { use, useState } from "react"
+import { useState } from "react"
 
 export default function LimitedCounter() {
     const [valorMaximo, setValorMaximo] = useState(0)
